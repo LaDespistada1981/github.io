@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    
+    <title>Roberta Santos da Silva</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+      
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/Style.css">
+
+  </head>
+  <body>
+      
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          
+        <div class="container">
+            
+        <a class="navbar-brand h1 mb=0"  href="#">Roberta Santos da Silva</a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarSite">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSite">
+                
+                <ul class="navbar-nav mr-auto">  <!-- Alinhando a barra pela margem direita -->
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="=">Perfil</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="=">Projetos</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="=">Contato</a>
+                    </li>
+                </ul>
+                
+                <ul class="navbar-nav ml-auto"> <!-- Alinhando a barra pela margem esquerda -->
+                    
+                    <li class="nav-item dropdown">
+                        
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">
+                            Minhas Redes
+                        </a>
+                        <div class="dropdown-menu">
+                            
+                            <a class="dropdown-item" href="#">"Facebook"</a>
+                            <a class="dropdown-item" href="#">"Instagram"</a>
+                            <a class="dropdown-item" href="#">"LinkedIn"</a>
+                        </div>
+                        
+                    </li>
+                
+                </ul>
+                
+                <form class="form-inline">
+                    
+                    <input class="form-control ml-4 mr-2" type="search" placeholder="Buscar...">
+                    <button class="btn btn-default" type="submit">Ok</button>
+                </form>
+                
+            </div>
+            
+        </div>
+          
+      
+      </nav>
+      
+      <div id="carouselSite" class="carousel slide" data-ride="carousel">
+          
+          <ol class="carousel-indicators">
+              <li data-target="carouselSite" data-slide-to="0" class="active"></li>
+              <li data-target="carouselSite" data-slide-to="1"></li>
+              <li data-target="carouselSite" data-slide-to="2"></li>       
+          </ol>
+          
+        <div class="carousel-inner center-block">
+            
+          <div class="carousel-item active">
+              
+            <img src="Imagens/img1.jpg" class="img-fluid d-block">
+            
+            <div class="carousel-caption d-none d-md-block text-light">
+                
+                <h1>Desfrutar da minha cidade...</h1>
+                <p class="lead">Apesar dos pesares, essa ainda é a cidade maravilhosa.</p>
+                
+            </div>
+              
+          </div>
+            
+          <div class="carousel-item">
+              
+            <img src="Imagens/Img2.jpg" class="img-fluid d-block"> 
+            
+            <div class="carousel-caption d-none d-md-block text-light">
+                
+                <h1>Cercada de grandes amigos...</h1>
+                <p class="lead">Amigos são a família que escolhemos.</p>
+                
+            </div>
+              
+          </div>
+            
+          <div class="carousel-item">
+              
+            <img src="Imagens/img3.jpg" class="img-fluid d-block">
+              
+            <div class="carousel-caption d-none d-md-block text-lightgrey">
+                
+                <h1>Fazer novos amigos...</h1>
+                <p class="lead">Toda grande amizade começa em um primeiro encontro.</p>
+                
+            </div>
+              
+          </div>
+            
+        </div>
+          
+          <a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
+          
+              <span class="carousel-control-prev-icon"></span>
+              <span class="sr-only">Anterior</span>
+              
+          </a>
+          <a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
+              
+              <span class="carousel-control-next-icon"></span>
+              <span class="sr-only">Avançar</span>
+          
+          </a>
+          
+          
+      </div>
+      
+      <div class="container">
+          
+          <div class="row">
+              
+              <div class="col-12 text-center my-5">
+                  
+                  <h1 class="display-2">Mi casa es su casa...</h1>
+                  <p>"Quando eu nasci, um anjo torto, desses que vivem na sombra disse:" Vai Beta! Ser gauche na vida". 
+                      Podem dizer que estou plagiando Drummond, eu não ligo. É assim que me sinto no mundo... Errante, talvez? Quem há de saber?
+                      Sou carioca. Nasci em 17 de janeiro de 1981. Sou um vinho de boa safra. Afinal, foi nesse ano que o meu time foi campeão do mundo pela primeira vez. Melhor ano não poderia existir pra uma estreia, não é mesmo? Sou Capricórnio com ascendente em Peixes. Dois elementos opostos, Terra e Água, a união deles me torna uma pessoa moldada na lama. Talvez por isso, nem sempre a minha lógica é a mais comum. Eu costumo pensar fora da caixa. Não gosto de rótulos. Quem se define, se limita e definitivamente, não sou dessas!!! Sou movida à paixões, paixão pelo Rio, pela música, pela arte, pela tecnologia, pela minha ideologia e principalmente, pela minha família e amigos.</p>
+              
+              </div>
+              
+          </div>
+          <div class="row mb-5">
+              
+              <div class="col-3">
+                  
+                  <nav id="navbarVertical" class="navbar navbar-light bg-light">
+                  
+                    <nav class="nav nav-pills flex-column">
+                    
+                        <a class="nav-link my-2 active" href="#item1">O que me diz respeito...</a>
+                        
+                           <nav class="nav nav-pills flex-column">
+                               
+                                <a class="nav-link ml-3" href="#item1_1">Arquitetura e Urbanismo, 2009</a>
+                               
+                                <a class="nav-link ml-3" href="#item1_2">Engenharia Civil, 2018</a>
+                               
+                                <a class="nav-link ml-3" href="#item1_3">Desenvolvimento de Software, 2020</a>
+                           </nav>
+                        
+                        <a class="nav-link my-2" href="#item2"><strong>Minhas ferramentas de trabalho</strong></a>
+                            
+                            <nav class="nav nav-pills flex-column"> 
+                                
+                              
+                        
+                        <a class="nav-link my-2" href="#item3"><strong>Minhas ferramentas de comunicação:</strong></a>
+                                
+                                
+                           <nav class="nav nav-pills flex-column">
+                               
+                                <a class="nav-link ml-3" href="#item3_1">Português</a>
+                               
+                                <a class="nav-link ml-3" href="#item3_2">Espanhol</a>
+                               
+                                <a class="nav-link ml-3" href="#item3_2">Inglês</a>
+                               
+                           </nav>
+                        
+                    </nav>
+                        
+                </nav>
+                
+              </div>
+                  
+            </div>
+              
+     
+              
+            <div class="row mb-0">
+                
+                <div class="col-9 text-center my-5">
+
+                    <div data-spy="scroll" data-target="#navbarVertical" data-offset="0" class="scrollspySite">
+
+                        <h3 class="display-4 my-5" id="item1"><strong>O que aprendi por aí...</strong></h3>
+                        <p>Foram muitas as lições que aprendi por aí, entretanto, deixo aqui relatadas apenas aquelas me ajudam e tenho fé que ainda irão me ajudar a pagar os boletos da vida. </p>
+
+                        <h5 id="item1.1">Arquitetura e Urbanismo</h5>
+                        <p>Essa é a minha primeira formação, a que venho exercendo desde que me formei na UFRuralRJ em 2009. Já são 11 anos de vivências na área. Da prancheta ao canteiro de obra; do projeto paisagístico até a arquitetura efêmera dos estandes cenográficos. Do gerenciamento de canteiro a gestão de eventos, muitos foram os caminhos que percorri nessa profissão.</p>
+
+                        <h5 id="item1.2">Engenharia Civil </h5>
+                        <p>De 2013 a 2018, me dediquei a acumular mais esse canudo. Achava que ele me pouparia horas de discussões inúteis sobre quem deve fazer o que em uma obra e principalmente me poupar de ter que provar minha competência a cada tijolo erguido. O fato de ser "apenas uma arquiteta" foi o argumento mais utilizado para tentar me calar e invalidar minhas opiniões no trabalho. Hoje vejo que não era só pelo fato de ser "apenas" arquiteta, mas sim por ser uma mulher entrando em um espaço que por muitos anos foi um clube do Bolinha. Mas é bom que fique claro de uma vez por todas que lugar de mulher, é onde ela quiser e se insistirem em continuar com os clubinhos fechados, chegaremos com os dois pés na porta!!! </p>
+
+                        <h5 id="item1.3">Desenvolvimento de Software </h5>
+                        <p>Desde outubro de 2019, resolvi retomar meu namoro com a tecnologia, interrompido em 2003 quando esbarrei com a arquitetura em uma certa universidade Rural. Por mais que eu tenha tentado me manter fiel ao relacionamento com a Arquitetura em todos esses anos, meus olhos sempre brilharam toda vez que eu esbarrava com os avanços da Tecnologia. A Tecnologia foi minha primeira paixão. Foi à primeira vista, logo que me deparei com ela no Curso Técnico em Eletrônica. Nosso relacionamento foi intenso durante os 3 anos de formação do curso ainda na era da internet discada onde passávamos as madrugadas em claro utilizando o pulso único da companhia telefônica de 0 as 6 da manhã.</p>
+                        <p>Muita coisa mudou nesses anos, mas cada dia que passa, o fato de ter reencontrado essa paixão da adolescência, me faz sentir mais viva e renovada. O caminho é longo e o aprendizado intenso, mas cada dia tenho mais certeza que aqui é o meu lugar.</p>
+                        
+
+                        <h3 class="display-4 my-5" id="item2"><strong>O que guardo em minha bolsa de ferramentas...</strong></h3>
+                        <p>Essas são as ferramentas que costumo utilizar no dia a dia.</p>
+
+                        <h5 id="item2.1">Auto Cad</h5>
+            
+                        <h5 id="item2.2">SketchUP</h5>
+                       
+                        <h5 id="item2.3">Google Earth Pro</h5>
+                   
+                        <h5 id="item2.4">Trello</h5>
+                     
+                        <h5 id="item2.5">Windows Office</h5>
+                       
+                        <h5 id="item2.6">CentOS7</h5>
+               
+                        <h5 id="item2.7">PFsense</h5>
+                       
+                        <h5 id="item2.8">Photoshop</h5>
+                      
+                        <h5 id="item2.9">Corel Draw</h5>
+                       
+                        <h5 id="item2.10">Apache Server</h5>
+            
+                        <h5 id="item2.11">FTP Server</h5>
+
+                        <h5 id="item2.12">Infraestrutura de Redes</h5>
+                     
+                        <h5 id="item2.13">Bootstrap 4</h5>
+
+                        <h5 id="item2.13">Qlik Sense</h5>
+
+                        <h5 id="item2.13">Power BI</h5>
+                        
+                      
+                        <h3 class="display-4 my-5" id="item3"><strong>Ferramentas de comunicação...</strong></h3>
+                        <p>Fala que eu te escuto.</p>
+
+                        <h5 id="item3.1">Português</h5>
+                        <p>Sou nativa na língua de Camões, última flor do Lácio, inculta e bela.</p>
+
+                        <h5 id="item3.2">Espanhol</h5>
+                        <p>Sou quase fluente. Vejo filmes de Almodóvar sem legenda e consigo ler Garcia Marques  e Neruda na língua original de Cervantes.</p>
+
+                        <h5 id="item3.3">Inglês</h5>
+                        <p>Ainda tenho muito a evoluir, mas já consigo te entender se vc falar de uma maneira amigável, assim como o Ross, a Mônica, o Joe, o Chandler e a Rachel. </p>
+
+
+                    </div>
+
+
+                </div>
+                  
+      
+            </div>
+      
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  </body>
+      
+</html>
