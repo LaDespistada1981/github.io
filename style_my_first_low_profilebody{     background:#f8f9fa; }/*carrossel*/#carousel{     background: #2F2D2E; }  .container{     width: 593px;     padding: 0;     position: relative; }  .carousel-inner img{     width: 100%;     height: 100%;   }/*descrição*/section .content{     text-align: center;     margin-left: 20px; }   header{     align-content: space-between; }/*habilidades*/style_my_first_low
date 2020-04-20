@@ -1,0 +1,102 @@
+body{
+    background:#f8f9fa;
+}
+/*carrossel*/
+#carousel{
+    background: #2F2D2E;
+}
+
+.container{
+    width: 593px;
+    padding: 0;
+    position: relative;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: 100%;  
+}
+/*descrição*/
+section .content{
+    text-align: center;
+    margin-left: 20px;
+} 
+
+header{
+    align-content: space-between;
+}
+
+ /*habilidades*/
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #2F2D2E;
+    color: #fff;
+    align-content: center;
+    
+}
+div.navbar{
+    background-color: lightgrey;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+div.navbar h3{
+    text-align: center;
+    text-decoration: bolder;
+}
+
+main div.container-fluid{
+    background-color: #f8f9fa;
+    width: 100%;
+    text-align: center; 
+    margin-left: 0;
+}
+
+main div.container-fluid h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+div #formacao{
+    background: lightgrey;
+    margin: 20px;
+    text-align: center;
+}
+
+div #comunicacao{
+    background: lightgrey;
+    margin: 20px;
+    text-align: center;
+}
+
+div #ferramenta{
+    background: lightgrey;
+    margin: 20px;
+    text-align: center;
+}
+
+#ferramenta img{
+   width: 100px;
+   margin: 10px;
+   align-items: center;
+   align-content: space-around;
+}
+
+footer{
+    background-color: lightgrey;
+    margin-top: 30px;
+    text-align: center;
+    list-style: none;
+    align-content: center;
+}
+
+.fa{
+    color: #2F2D2E;
+    padding:20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
