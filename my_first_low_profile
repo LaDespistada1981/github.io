@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Roberta Santos da Silva</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet/less" type="text/css" href="styles.less" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"> <strong>Perfil</strong></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://github.com/LaDespistada1981" target="_blank"><strong>Projetos</strong></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- BOOTSTRAP_CARROSSEL -->
+    <section id="carousel">
+      <div class="container-fluid m-3">
+        <div id="cenas" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+              <li data-target="#cenas" data-slide-to="0" class="active"></li>
+              <li data-target="#cenas" data-slide-to="1"></li>
+              <li data-target="#cenas" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/carrossel_1.jpg" class="img-fluid d-block" alt="Roberta no Mirante do Forte do Leme" width="1100" height="375.29">
+                <div class="carousel-caption">
+                  <h3>Desfrutar da minha cidade...</h3>
+                  <p>Apesar dos pesares, essa ainda é a cidade maravilhosa.</p>
+                </div>   
+              </div>
+              <div class="carousel-item">
+                <img src="img/carrossel_2.jpg" class="img-fluid d-block" alt="Roberta com amigos na Escadaria Selarón na Lapa" width="1100" height="375.29">
+                <div class="carousel-caption">
+                  <h3>Cercada de grandes amigos...</h3>
+                  <p>Amigos são a família que escolhemos.</p>
+                </div>   
+              </div>
+              <div class="carousel-item">
+                <img src="img/carrossel_3.jpg" class="img-fluid d-block" alt="Roberta e os novos amigos do Resilia." width="1100" height="375.29">
+                <div class="carousel-caption">
+                  <h3>Fazer novos amigos...</h3>
+                  <p>Toda grande amizade começa em um primeiro encontro.</p>
+                </div>   
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#cenas" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#cenas" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+    </div>
+
+    </section>
+    <!-- FIM DO BOOTSTRAP_CARROSSEL -->
+
+    <!--INÍCIO DA APRESENTAÇÃO-->
+      <section id="description">
+        <div class="content">
+          <h1>Mi Casa Es Su Casa...</h1>
+          
+          <p>"Quando eu nasci, um anjo torto, desses que vivem na sombra disse:"<br> 
+            Vai, Robertinha! Ser gauche na vida". Podem dizer que estou plagiando Drummond, eu não ligo. <br>
+            É assim que me sinto no mundo... Errante, talvez? Quem há de saber? <br>
+            Sou carioca. Nasci em 17 de janeiro de 1981. Melhor ano não poderia existir pra uma estreia, não é mesmo?<br>
+            Afinal, foi nesse ano que o meu time foi campeão do mundo pela primeira vez. <br>
+            Sou um vinho de boa safra. Capricorniana com ascendente em Peixes.<br>
+            Dois signos de elementos opostos, Terra e Água, a união deles me torna uma pessoa do elemento lama. <br>
+            Talvez por isso, nem sempre a minha lógica é a mais comum. Eu costumo pensar fora da caixa. <br>
+            Não gosto de rótulos. Quem se define, se limita e definitivamente, não sou dessas!!! <br>
+            Sou movida à paixões. <br>
+            Paixão pelo Rio, pela música, pela arte, pela tecnologia, pela minha ideologia <br>
+            e principalmente, pela minha família e amigos.
+          </p>
+        </div>
+      </section>
+      <!--FIM DA APRESENTAÇÃO-->
+      <main>
+        <section id="skills">
+          <div class="row">
+            <div class="col-sm-4">
+                <div class="navbar">
+                  <h4>Minhas Habilidades</h4>
+                  <nav id="navbarVertical">
+        
+                    <nav class="nav-pills flex flex-column">
+                      <a class="nav-link my-2 active" href="#item1">O que me diz respeito...</a>
+                      <nav class="nav nav-pills flex-column">
+                                      
+                        <a class="nav-link ml-3" href="#item1_1">Arquitetura e Urbanismo, 2009</a>
+                        
+                        <a class="nav-link ml-3" href="#item1_2">Engenharia Civil, 2018</a>
+                        
+                        <a class="nav-link ml-3" href="#item1_3">Desenvolvimento de Software, 2020</a>
+                      </nav>
+                    </nav>
+      
+                    <nav class="nav-pills flex flex-column">
+                      <a class="nav-link my-2 active" href="#item2">Minhas ferramentas de comunicação...</a>
+                      <nav class="nav nav-pills flex-column">
+                        <a class="nav-link ml-3" href="#item2_1">Português (nativa)</a>
+                        
+                        <a class="nav-link ml-3" href="#item2_2">Espanhol (avançado)</a>
+                        
+                        <a class="nav-link ml-3" href="#item2_3">Inglês (intermediário)</a>
+                      </nav>
+                    </nav>
+      
+                    <nav class="nav-pills flex flex-column">
+                      <a class="nav-link my-2 active" href="#item3">Minhas ferramentas de sobrevivência...</a>
+                      <nav class="nav nav-pills flex-column">
+                        <a class="nav-link ml-3" href="#item3_1">Windows | Linux - CentOS | Unix - BSD </a>
+                        
+                        <a class="nav-link ml-3" href="#item3_2">MS Office | FreeOffice | Google Docs</a>
+                        
+                        <a class="nav-link ml-3" href="#item3_3">Qlik Sense | PowerBI</a>
+    
+                        <a class="nav-link ml-3" href="#item3_4">HTML5 | CSS3 | Javascript</a>
+    
+                        <a class="nav-link ml-3" href="#item3_5">CorelDraw | AdobeXD | Figma</a>
+    
+                        <a class="nav-link ml-3" href="#item3_6">AutoCAD | REVIT | SketchUP</a>
+    
+                        <a class="nav-link ml-3" href="#item3_6">Google Earth | Google Maps | Google Earth Engine</a>
+  
+                      </nav>
+                    </nav>
+                  </nav>
+                </div>
+              <!-- FIM DO ASIDE-->
+            </div>
+
+            <div class="col-sm-8">
+              <div class="container-fluid">
+                <div data-spy="scroll" data-target="#navbarVertical" data-offset="0" class="scrollspySite">
+                  <div id="formacao">
+                    <h3 class="display-4 my-5" id="item1">O que me diz respeito...</h3>
+                    <h4>
+                      <p>
+                        Foram muitas as lições que aprendi por aí, entretanto, deixo aqui relatadas apenas 
+                        aquelas me ajudam a pagar os boletos da vida.
+                      </p>
+                    </h4><br>
+  
+                    <h5 id="item1.1">Arquitetura e Urbanismo</h5>
+                    <p>
+                      Essa é a minha primeira formação.<br>
+                      É a que venho exercendo desde que me formei na UFRuralRJ em 2009.<br> 
+                      Já são 11 anos de vivências na área.<br> 
+                      Da prancheta ao canteiro de obra.<br> 
+                      Do projeto paisagístico à arquitetura efêmera dos estandes cenográficos.<br> 
+                      Do gerenciamento de canteiro à gestão de eventos.<br> 
+                      Muitos foram os caminhos que percorri nessa profissão.<br> 
+                    </p>
+  
+                    <h5 id="item1.2">Engenharia Civil</h5>
+                    <p>
+                      De 2013 a 2018, me dediquei a acumular mais esse canudo. <br> 
+                      Achava que ele me pouparia horas de discussões inúteis sobre quem deve fazer o que<br> 
+                      em uma obra e principalmente me poupar de ter que provar minha competência a cada tijolo erguido.<br> 
+                      O fato de ser "apenas uma arquiteta" foi o argumento mais utilizado <br>
+                      para tentar me calar e invalidar minhas opiniões no trabalho.<br>  
+                      Hoje vejo que não era só pelo fato de ser "apenas" arquiteta, mas sim por ser uma mulher <br> 
+                      entrando em um espaço que por muitos anos foi um clube do Bolinha. <br> 
+                      Mas é bom que fique claro de uma vez por todas, lugar de mulher, é onde ela quiser.<br> 
+                      E o aviso tá dado: se insistirem em continuar com os clubinhos fechados,<br>
+                      chegaremos com os dois pés na porta!!!<br>  
+                    </p>
+  
+                    <h5 id="item1.3">Desenvolvimento de Software</h5>
+                    <p>
+                      Desde outubro de 2019, resolvi retomar meu namoro com a tecnologia,<br> 
+                      interrompido em 2003 quando esbarrei com a arquitetura <br>
+                      em uma certa universidade Rural. <br> 
+                      Por mais que eu tenha tentado me manter fiel<br> 
+                      ao relacionamento com a Arquitetura em todos esses anos, <br> 
+                      meus olhos sempre brilharam toda vez que eu esbarrava <br>
+                      com os avanços da Tecnologia. <br> 
+                      A Tecnologia foi minha primeira paixão.<br>
+                      Foi à primeira vista, <br> 
+                      logo que me deparei com ela no Curso Técnico em Eletrônica, em 1999. <br> 
+                      Nosso relacionamento foi intenso durante os 3 anos de formação do curso,<br>
+                      ainda na era da internet discada.<br> 
+                      Passávamos as madrugadas em claro <br>
+                      utilizando o pulso único da companhia telefônica de 0 as 6 da manhã.<br> 
+                      Esses millenials não sabem a sorte que têm!!!<br> 
+                      Muita coisa mudou nesses anos, mas cada dia que passa, <br>
+                      o fato de ter reencontrado essa paixão da adolescência, <br>
+                      me faz sentir mais viva e renovada. <br>
+                      O caminho é longo e o aprendizado intenso, <br>
+                      mas cada dia tenho mais certeza que aqui é o meu lugar.<br>
+                    </p><br>
+                  </div>
+
+                  <div id="comunicacao">
+                    <h3 class="display-4 my-5" id="item2">Ferramentas de comunicação...</h3>
+                    <h4>
+                      <p>Fala Português? Hablas Español? Speak English?</p>
+                    </h4><br>
+                  
+                    <h5 id="item2.1">Português</h5>
+                    <p>
+                      Sou nativa na língua de Camões, última flor do Lácio, inculta e bela.
+                    </p>
+        
+                    <h5 id="item2.2">Espanhol</h5>
+                    <p>
+                      Sou quase fluente. <br>
+                      Vejo filmes de Almodóvar sem legenda e consigo ler <br>
+                      Garcia Marques e Neruda na língua original de Cervantes.<br>
+                    </p>
+        
+                    <h5 id="item2.3">Inglês</h5>
+                    <p>
+                      Ainda tenho muito a evoluir, <br>
+                      mas consigo te entender se vc falar de uma maneira amigável, <br>
+                      assim como o Ross, a Rachel, o Joe, a Phoebe, o Chandler e a Mônica. 
+                    </p><br>
+                  </div>
+
+                  <div id="ferramenta">
+                    <h3 class="display-4 my-5" id="item3">O que guardo em minha bolsa de ferramentas...</h3>
+                    <h4>
+                      <p>Essas são algumas das ferramentas que trago na bagagem.</p>
+                    </h4><br>
+                    
+                    <img src="img/windows.png" alt="Sistema Operacional Windows" id="windows">
+                    <img src="img/centOS.png" alt="Sistema Operacional Linux - CentOs" id="linux">
+                    <img src="img/freeBSD.png" alt="Sistema Operacional Unix - BSD" id="unix">
+                    <img src="img/office365.png" alt="Micro Soft Office" id="office">
+                    <img src="img/freeOffice.png" alt="Free Office" id="freeOffice">
+                    <img src="img/GSuite.png" alt="Google Suite" id="googleSuite"><hr>
+
+                    <img src="img/qliksense.png" alt="Qlik Sense" id="qlikSense">
+                    <img src="img/powerBI.png" alt="Power BI" id="powerBI">
+                    <img src="img/html5.png" alt="HTML 5" id="html5">
+                    <img src="img/css3.png" alt="CSS 3" id="css3">
+                    <img src="img/js.png" alt="Javascript" id="jscript"><hr>
+
+                    <img src="img/corel.png" alt="Corel Draw" id="corel">
+                    <img src="img/adobexd.png" alt="Adobe XD" id="adobeXD">
+                    <img src="img/figma.png" alt="Figma" id="figma">
+                    <img src="img/autocad.png" alt="AutoCAD" id="autoCAD">
+                    <img src="img/sketchup.png" alt="Sketch UP" id="sketchUP"><hr>
+
+                    <img src="img/googleEarth.jpg" alt="Google Earth Pro" id="googleEarth">
+                    <img src="img/GoogleMaps.png" alt="Google Maps" id="GoogleMaps">
+                    <img src="img/googleEarthEngine.png" alt="Google Earth Engine" id="googleEarthEngine">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+</body>
+<footer>
+  <div class="row">
+    <div class="col-sm-4">
+    <a href="https://www.linkedin.com/in/santosroberta/" target="_blank" class="fa fa-linkedin"></a>
+    <a href="https://www.instagram.com/ladespistada/" target="_blank" class="fa fa-instagram"></a>
+    <a href="https://www.facebook.com/robertasantosrj" target="_blank" class="fa fa-facebook"></a>
+    <a href="https://twitter.com/ladespistada" target="_blank" class="fa fa-twitter"></a>
+    <a href="http://github.com/LaDespistada1981" target="_blank" class="fa fa-github"></a>
+    <a href="" class=""></a>
+    </div>
+
+    <div class="col-sm-8">
+      <h5>Contato  |  roberta.silva@al.resilia.com.br</h5>
+      <h7>© 2020 Copyright by <a href="http://github.com/LaDespistada1981" target="_blank">Robertinha </a></h7>
+    </div>
+  </div>
+</footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js" ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.js"></script>
+</html>
